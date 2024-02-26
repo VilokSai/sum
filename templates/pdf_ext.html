@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>PDF</title>
+</head>
+<body style="background-color: bisque;">
+    <div class="jumbotron jumbotron-fluid" style="margin: 20px;background-color:rgb(201, 99, 99);">
+        <div class="container">
+          <h1 class="display-4" style="text-align: center;">UPLOAD PDF FILE</h1>
+          <p class="lead" style="text-align: center;">EXTRACTIVE SUMMARIZATION</p>
+        </div>
+      </div>
+    <marquee behavior="" direction="" style="background-color: rgb(190, 189, 189);">MAKE SURE YOU UPLOAD FILE IN PDF FORMAT ONLY</marquee>
+    <form action="/extractiveresults" method="post" enctype="multipart/form-data">
+        <div class="container" style="margin-top: 20px;">
+            <input type="file" name="file" accept=".pdf,.doc,.docx">
+            <input type="submit" value="Upload">            
+        </div>
+        
+    </form>
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
